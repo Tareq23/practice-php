@@ -18,6 +18,12 @@ class Hello
     {
         return $this->x + $this->y;
     }
+
+    public function square($x)
+    {
+        return $x*$x;
+    } 
+
 }
 
 
