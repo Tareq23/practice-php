@@ -7,6 +7,10 @@ class Hello
     {
         echo 'Hello PHP';
     }
+    public static function display()
+    {
+        echo "it's complete static function!";
+    } 
 }
 
 
