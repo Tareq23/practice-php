@@ -3,14 +3,21 @@
 
 class Hello
 {
-    public function __construct()
+    private $x,$y;
+    public function __construct($x,$y)
     {
-        echo 'Hello PHP';
+        $this->x = $x;
+        $this->y = $y;
+        echo 'Learning PHP';
     }
     public static function display()
     {
         echo "it's complete static function!";
-    } 
+    }
+    public function add()
+    {
+        return $this->x + $this->y;
+    }
 }
 
 
